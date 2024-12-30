@@ -15,6 +15,7 @@ stack * initStack() {
 }
 
 
+
 int pop(stack *s) {
     if(s->top <= 0 || s->dizi == NULL) {
         printf("dizi bos!\n");
